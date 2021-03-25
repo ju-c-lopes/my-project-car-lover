@@ -31,7 +31,7 @@ div.back {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 .carro {
@@ -39,7 +39,7 @@ div.back {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    animation: fade 5s;
+    animation: fade 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     z-index: 1;
@@ -50,12 +50,13 @@ figcaption#lam {
     font: bolder 80px Tangerine;
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 2px darkgray;
-    animation: fade 5s;
+    animation: fade 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     z-index: 2;
 }
 
 #foot {
+  text-shadow: 1px 1px 1px lightgray;
   width: 50px;
 }

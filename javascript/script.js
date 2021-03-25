@@ -23,5 +23,5 @@ function iniciar(){
       ini = 0
     }
   }
-  var time = setInterval(mudar, 9995)
+  var time = setInterval(mudar, 6000)
 }
